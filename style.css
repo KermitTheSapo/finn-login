@@ -136,12 +136,12 @@ button {
     /* border: 1px solid red;  */
 }
 
-@media (max-width:2560px) {
+@media (min-width:2561px) {
     .olho-direito {
         position: absolute;
         left: 90vh;
         top: 38vh;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .olho-esquerdo {
@@ -151,12 +151,28 @@ button {
     }
 }
 
-@media (max-width:1440px) {
+@media (max-width:2560px) {
     .olho-direito {
         position: absolute;
-        left: 55vh;
+        left: 110vh;
         top: 38vh;
-        border: 1px solid red;
+        /* border: 1px solid red; */
+    }
+
+    .olho-esquerdo {
+        position: absolute;
+        left: 90vh;
+        top: 38vh;
+    }
+}
+
+
+@media (max-width:1920px) {
+    .olho-direito {
+        position: absolute;
+        left: 20vh;
+        top: 38vh;
+        /* border: 1px solid red; */
     }
 
     .olho-esquerdo {
@@ -166,12 +182,27 @@ button {
     }
 }
 
+@media (max-width:1440px) {
+    .olho-direito {
+        position: absolute;
+        left: 65vh;
+        top: 38vh;
+        /* border: 1px solid red; */
+    }
+
+    .olho-esquerdo {
+        position: absolute;
+        left: 40vh;
+        top: 38vh;
+    }
+}
+
 @media (max-width:1024px) {
     .olho-direito {
         position: absolute;
-        left: 45vh;
+        left: 42vh;
         top: 38vh;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .olho-esquerdo {
