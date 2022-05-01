@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #2CB3F3;
+}
+
+.titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 20vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5.3vh;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2.8vh;
+    font-weight: 400;
+
+}
+
+.finn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    height: 67.11vh;
+}
+.finn-cabeca {
+    background-color: #FFFFFF;
+    width: 84.3vh;
+    height: 59vh;
+    border-radius: 100px 100px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.rosto {
+    background-color: #FFE1C9;
+    display: flex;
+    width: 66vh;
+    height: 47vh;
+    border-radius: 90%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    flex-direction: column;
+}
+
+.olhos {
+    display: flex;
+
+}
+
+.olho-direito {
+    position: absolute;
+    left: 110vh;
+    top: 38vh;
+    background-color: #000000;
+    display: flex;
+    width: 5.3vh;
+    height: 5.3vh;
+    border-radius: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.olho-esquerdo {
+    background-color: #000000;
+    position: absolute;
+    left: 91vh;
+    top: 38vh;
+    display: flex;
+    width: 5.3vh;
+    height: 5.3vh;
+    border-radius: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+input {
+    display: flex;
+    width: 33.5vh;
+    height: 3.8vh;
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+    width: 43vh;
+}
+
+input::placeholder {
+    color: #CCCCCC;
+    font-size: 1.8vh;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #55A603;
+    color: #B2F272;
+    padding: 15px;
+    width: 21vh;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* border: 1px solid red;  */
+}
+
+@media (max-width:2560px) {
+    .olho-direito {
+        position: absolute;
+        left: 90vh;
+        top: 38vh;
+        border: 1px solid red;
+    }
+
+    .olho-esquerdo {
+        position: absolute;
+        left: 65vh;
+        top: 38vh;
+    }
+}
+
+@media (max-width:1440px) {
+    .olho-direito {
+        position: absolute;
+        left: 55vh;
+        top: 38vh;
+        border: 1px solid red;
+    }
+
+    .olho-esquerdo {
+        position: absolute;
+        left: 30vh;
+        top: 38vh;
+    }
+}
+
+@media (max-width:1024px) {
+    .olho-direito {
+        position: absolute;
+        left: 45vh;
+        top: 38vh;
+        border: 1px solid red;
+    }
+
+    .olho-esquerdo {
+        position: absolute;
+        left: 20vh;
+        top: 38vh;
+    }
+}
